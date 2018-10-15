@@ -29,10 +29,7 @@ class TransactionQueue {
     def peek: Transaction = this.synchronized { this.queue.front }
 
     // Return an iterator to allow you to iterate over the queue
-    def iterator: Iterator[Transaction] = {
-      val it = Iterator[Transaction]()
-
-    }
+    def iterator: Iterator[Transaction] = this.synchronized { this.queue.iterator }
 }
 
 class Transaction(val transactionsQueue: TransactionQueue,
