@@ -1,8 +1,0 @@
-:q
-quit
-q
-:quit
-sbt compile
-{file:/Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/}task1-project/test
-{file:/Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/}task1-project/compile
-show {file:/Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/}task1-project/compile
