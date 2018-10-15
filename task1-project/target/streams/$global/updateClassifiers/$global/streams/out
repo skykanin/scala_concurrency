@@ -1,0 +1,1205 @@
+[debug] :: resolving dependencies :: project-1#project-1$sources;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.4 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.4
+[debug] 	found org.scala-lang#scala-library;2.12.4 in sbt-chain
+[debug] 	[2.12.4] org.scala-lang#scala-library;2.12.4
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.12;2.4.20 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.12;2.4.20
+[debug] 	found com.typesafe.akka#akka-actor_2.12;2.4.20 in sbt-chain
+[debug] 	[2.4.20] com.typesafe.akka#akka-actor_2.12;2.4.20
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.typesafe#config;1.3.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
+[debug] 	found com.typesafe#config;1.3.0 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.12;0.8.0
+[debug] 	found org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [runtime]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [test]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [runtime]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.4
+[debug] 	found org.scala-lang#scala-reflect;2.12.4 in sbt-chain
+[debug] 	[2.12.4] org.scala-lang#scala-reflect;2.12.4
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.12;3.0.0
+[debug] 	found org.scalactic#scalactic_2.12;3.0.0 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.5
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.5 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.0 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.0
+[debug] 	found org.scalatest#scalatest_2.12;3.0.0 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [compile-internal]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [optional]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [provided]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [runtime-internal]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [runtime]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [optional]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [test-internal]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [test]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [runtime]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [compile->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [runtime->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test->master]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [optional]
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [provided]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->master(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe.akka#akka-actor_2.12;2.4.20 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalactic#scalactic_2.12;3.0.0 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.5 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->com.typesafe#config;1.3.0 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->default(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scalatest#scalatest_2.12;3.0.0 [test-internal->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-java8-compat_2.12;0.8.0 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [plugin]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for project-1#project-1$sources;1.0 [scala-tool]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->default]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->master(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->master(compile)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->optional]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-library;2.12.4 [scala-tool->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
+[debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [scala-tool->master(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [scala-tool->runtime(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [scala-tool->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [scala-tool->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-reflect;2.12.4 [scala-tool->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->jline#jline;2.14.5 [scala-tool->master(*)]
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.5 {scala-tool=[master(*), compile, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.14.5
+[debug] 	found jline#jline;2.14.5 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->jline#jline;2.14.5 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->jline#jline;2.14.5 [scala-tool->compile(*)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->jline#jline;2.14.5 [scala-tool->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->default]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.4 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.4
+[debug] 	found org.scala-lang#scala-compiler;2.12.4 in sbt-chain
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->runtime]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->compile]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->optional]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies project-1#project-1$sources;1.0->org.scala-lang#scala-compiler;2.12.4 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0/srcs/scala-java8-compat_2.12-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/jline/jline/2.14.5/srcs/jline-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/com.typesafe.akka/akka-actor_2.12/2.4.20/srcs/akka-actor_2.12-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.5/srcs/scala-xml_2.12-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.4/srcs/scala-parser-combinators_2.12-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/com.typesafe/config/1.3.0/srcs/config-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/org.scala-lang/scala-compiler/2.12.4/srcs/scala-compiler-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/org.scala-lang/scala-library/2.12.4/srcs/scala-library-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/org.scalactic/scalactic_2.12/3.0.0/srcs/scalactic_2.12-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/org.scala-lang/scala-reflect/2.12.4/srcs/scala-reflect-sources.jar
+[debug] 		tried /Users/nicholasjaunsen/.ivy2/local/org.scalatest/scalatest_2.12/3.0.0/srcs/scalatest_2.12-sources.jar
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] no default ivy user dir defined: set to /Users/nicholasjaunsen/.ivy2
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] no default cache defined: set to /Users/nicholasjaunsen/.ivy2/cache
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (72ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (76ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (78ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20-sources.jar
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (78ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	default [chain] [local, main]
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (85ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.0/scalatest_2.12-3.0.0-sources.jar
+[debug] settings loaded (91ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (87ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] settings loaded (88ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	main [chain] [shared, public]
+[debug] 	default resolver: default
+[debug] 	local [file]
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/Users/nicholasjaunsen/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.0/scalactic_2.12-3.0.0-sources.jar
+[debug] settings loaded (87ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
+[debug] settings loaded (91ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (92ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
+[debug] settings loaded (91ms)
+[debug] 	default cache: /Users/nicholasjaunsen/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.0/scalactic_2.12-3.0.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.0/scalactic_2.12-3.0.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar ...
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.0/scalatest_2.12-3.0.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.0/scalatest_2.12-3.0.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src) (1444ms)
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src) (1444ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.0/scalactic_2.12-3.0.0-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5-sources.jar
+[info] 	[SUCCESSFUL ] jline#jline;2.14.5!jline.jar(src) (1557ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.0/scalactic_2.12-3.0.0-sources.jar
+[info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.0!scalactic_2.12.jar(src) (1628ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.jar(src) (1639ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20-sources.jar.sha1
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src) (1732ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.4.20/akka-actor_2.12-2.4.20-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.12;2.4.20!akka-actor_2.12.jar(src) (1898ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src) (1992ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.4/scala-compiler-2.12.4-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src) (2078ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.4!scala-library.jar(src) (2364ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.0/scalatest_2.12-3.0.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.0/scalatest_2.12-3.0.0-sources.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.0!scalatest_2.12.jar(src) (2619ms)
+[debug] :: resolution report :: resolve 608ms :: artifacts dl 2736ms
+[debug] 	report for project-1#project-1$sources;1.0 compile produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-compile.xml
+[debug] 	report for project-1#project-1$sources;1.0 runtime produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-runtime.xml
+[debug] 	report for project-1#project-1$sources;1.0 test produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-test.xml
+[debug] 	report for project-1#project-1$sources;1.0 provided produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-provided.xml
+[debug] 	report for project-1#project-1$sources;1.0 optional produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-optional.xml
+[debug] 	report for project-1#project-1$sources;1.0 compile-internal produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-compile-internal.xml
+[debug] 	report for project-1#project-1$sources;1.0 runtime-internal produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-runtime-internal.xml
+[debug] 	report for project-1#project-1$sources;1.0 test-internal produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-test-internal.xml
+[debug] 	report for project-1#project-1$sources;1.0 plugin produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-plugin.xml
+[debug] 	report for project-1#project-1$sources;1.0 pom produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-pom.xml
+[debug] 	report for project-1#project-1$sources;1.0 scala-tool produced in /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/resolution-cache/reports/project-1-project-1$sources-scala-tool.xml
+[debug] 	resolve done (608ms resolve - 2736ms download)

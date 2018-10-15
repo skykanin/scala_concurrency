@@ -1,0 +1,35 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/project-1_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	exceptions/IllegalAmountException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/exceptions/IllegalAmountException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/Main$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionStatus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/TransactionStatus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	exceptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/exceptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transaction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/Transaction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	exceptions/NoSufficientFundsException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/exceptions/NoSufficientFundsException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account$Balance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/Account$Balance.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/Account.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionStatus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/TransactionStatus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Bank.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/Bank.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	exceptions/NoSufficientFundsException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/exceptions/NoSufficientFundsException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TransactionQueue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/TransactionQueue.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	exceptions/IllegalAmountException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/exceptions/IllegalAmountException$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Bank$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/nicholasjaunsen/Documents/Github/scala_project/task1-project/target/scala-2.12/classes/Bank$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
