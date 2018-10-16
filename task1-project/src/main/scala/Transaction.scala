@@ -15,7 +15,7 @@ class TransactionQueue {
     // Return whether the queue is empty
     def isEmpty: Boolean = queue.synchronized {
       this.queue match {
-        case queue.length == 0 => true
+        case `queue` if queue.isEmpty => true
         case _ => false
       }
     }
@@ -26,10 +26,10 @@ class TransactionQueue {
     }
 
     // Return the first element from the queue without removing it
-    def peek: Transaction = queue.synchronized { this.queue.front }
+    def peek: Transaction = queue.synchronized { queue.front }
 
     // Return an iterator to allow you to iterate over the queue
-    def iterator: Iterator[Transaction] = queue.synchronized { this.queue.iterator }
+    def iterator: Iterator[Transaction] = queue.synchronized { queue.iterator }
 }
 
 class Transaction(val transactionsQueue: TransactionQueue,
@@ -42,33 +42,34 @@ class Transaction(val transactionsQueue: TransactionQueue,
   var status: TransactionStatus.Value = TransactionStatus.PENDING
 
   override def run(): Unit = {
+      var attempts = allowedAttempts
 
       def doTransaction(): Unit = {
           from withdraw amount
           to deposit amount
       }
 
-      if (from.uid < to.uid) from synchronized {
-          to synchronized {
-            doTransaction()
-          }
-      } else to synchronized {
-          from synchronized {
-            doTransaction()
-          }
-      }
+      def attempt(): Unit =
+        if (from.uid < to.uid) from synchronized {
+            to synchronized {
+              doTransaction()
+            }
+        } else to synchronized {
+            from synchronized {
+              doTransaction()
+            }
+        }
 
       // Extend this method to satisfy requirements.
-      // TODO Implement allowed attempts here
-      for (i <- allowedAttempts) {
-        if (from.uid < to.uid) from synchronized {
-          to synchronized {
-            doTransaction()
-          }
-        } else to synchronized {
-          from synchronized {
-            doTransaction()
-          }
+      while(attempts > 0) {
+        try {
+          attempt()
+          status = TransactionStatus.SUCCESS
+        } catch {
+          case e: NoSufficientFundsException => attempts -= 1
+            status = TransactionStatus.FAILED
+          case f: IllegalAmountException => attempts -= 1
+            status = TransactionStatus.FAILED
         }
       }
     }
