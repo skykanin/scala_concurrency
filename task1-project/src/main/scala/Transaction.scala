@@ -65,6 +65,7 @@ class Transaction(val transactionsQueue: TransactionQueue,
         try {
           attempt()
           status = TransactionStatus.SUCCESS
+          return
         } catch {
           case e: NoSufficientFundsException => attempts -= 1
             status = TransactionStatus.FAILED
