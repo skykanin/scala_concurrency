@@ -84,32 +84,31 @@ class Account(val accountId: String, val bankId: String, val initialBalance: Dou
             case `to` if `to` == getFullAddress =>
                 val temp = transactions(transactionId)
                 temp.status = transaction.status
+                temp.receiptReceived = true
+                if (temp.status == TransactionStatus.FAILED) deposit(transaction.amount)
+            case _ => BankManager.findBank(to.take(4)) ! TransactionRequestReceipt(to, transactionId, transaction)
         }
 
-        case BalanceRequest => getBalanceAmount // Should return current balance
+        case BalanceRequest => sender ! getBalanceAmount // Should return current balance
 
         case t: Transaction => {
           // Handle incoming transaction
-          transactions += (t.id -> t)
-
-            getTransactions foreach {t =>
-                if (t.to == getFullAddress) {
-                    try {
-                        deposit(t.amount)
-                        t.status = TransactionStatus.SUCCESS
-                    } catch {
-                        case _: IllegalAmountException =>
-                            t.status = TransactionStatus.FAILED
-                            val bankId = t.from.dropRight(4)
-                            BankManager.findBank(bankId) ! TransactionRequestReceipt(t.from, t.id, t)
-                    }
-                } else {
-                    transferTo(t.to, t.amount)
+            if (t.to == getFullAddress) {
+                try {
+                    deposit(t.amount)
+                    t.status = TransactionStatus.SUCCESS
+                    BankManager.findBank(bankId) ! TransactionRequestReceipt(t.from, t.id, t)
+                } catch {
+                    case _: IllegalAmountException =>
+                        t.status = TransactionStatus.FAILED
+                        val bankId = t.from.dropRight(4)
+                        BankManager.findBank(bankId) ! TransactionRequestReceipt(t.from, t.id, t)
                 }
+            } else {
+                transferTo(t.to, t.amount)
             }
         }
-
-        case msg => ???
+        case msg => println(s"From Account: $msg")
     }
 
 }
