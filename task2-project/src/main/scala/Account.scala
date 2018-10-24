@@ -93,20 +93,14 @@ class Account(val accountId: String, val bankId: String, val initialBalance: Dou
 
         case t: Transaction => {
           // Handle incoming transaction
-            if (t.to == getFullAddress) {
-                try {
-                    deposit(t.amount)
-                    t.status = TransactionStatus.SUCCESS
-                    BankManager.findBank(bankId) ! TransactionRequestReceipt(t.from, t.id, t)
-                } catch {
-                    case _: IllegalAmountException =>
-                        t.status = TransactionStatus.FAILED
-                        val bankId = t.from.dropRight(4)
-                        BankManager.findBank(bankId) ! TransactionRequestReceipt(t.from, t.id, t)
-                }
-            } else {
-                transferTo(t.to, t.amount)
+            try {
+                deposit(t.amount)
+                t.status = TransactionStatus.SUCCESS
+            } catch {
+                case _: IllegalAmountException =>
+                    t.status = TransactionStatus.FAILED
             }
+            sender ! new TransactionRequestReceipt(t.from,t.id,t)
         }
         case msg => println(s"From Account: $msg")
     }

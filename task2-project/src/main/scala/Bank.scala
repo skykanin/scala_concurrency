@@ -89,6 +89,7 @@ class Bank(val bankId: String) extends Actor {
             BankManager.findBank(t.from.take(4)) ! t
         } else {
             println("Incorrect state")
+            t.status = TransactionStatus.FAILED
         }
     }
 }

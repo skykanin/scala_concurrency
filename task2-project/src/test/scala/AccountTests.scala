@@ -257,8 +257,9 @@ class Test10 extends FunSuite {
     implicit val timeout = Timeout(5 seconds)
 
     account1.transferTo(account2.accountId, 200)
-
+    print("Waiting")
     TestHelper.waitUntilAllTransactionsAreCompleted(List(account1, account2))
+    print("Finished")
 
     account1.getTransactions.foreach(t => {
       assert(t.isCompleted)
